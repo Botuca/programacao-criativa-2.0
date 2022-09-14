@@ -13,6 +13,7 @@
     "canvas-sketch": "^0.7.5",
     "canvas-sketch-util": "^1.10.0",
     "colormap": "^2.3.2",
+    "eases": "^1.0.8",
     "riso-colors": "^1.0.1"
   }
 }
