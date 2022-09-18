@@ -6,6 +6,7 @@ const eases = require("eases");
 const settings = {
   dimensions: [1080, 1080],
   animate: true,
+  fps: 60,
 };
 
 let audio;
@@ -99,7 +100,7 @@ const addListeners = () => {
 
 const createAudio = () => {
   audio = document.createElement("audio");
-  audio.src = "audio/ikoliks - Big City Lights.mp3";
+  audio.src = "audio/Skrillex - Summit (feat. Ellie Goulding) -SMP3-.mp3";
 
   audioContext = new AudioContext();
 
